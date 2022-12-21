@@ -244,3 +244,8 @@ ul,li {
     text-align: left;
     padding-top: 30px;
 }
+
+._hr  {
+    width: 50px;
+    margin-left: 10px;
+}
