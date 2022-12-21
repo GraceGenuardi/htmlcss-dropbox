@@ -90,7 +90,7 @@ ul,li {
     color: white;
     margin-top: 20px;
     padding: 5px;
-    width: 250px;
+    width: 300px;
     text-align: center;
     border: 3px solid #0061ff;
 }
@@ -112,9 +112,135 @@ ul,li {
     float: right;
     position: relative;
     top: -350px;
-    left: -350px;
+    left: -300px;
     
     
     
 }
 
+/*****CONTEINER RULES*****/
+
+.conteiner_1 {
+    width: 100%;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.conteiner_2 {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.row_title {
+    width: 1000px;
+    height: 50px;
+    align-items: center;
+    font-size: 30px;
+    
+}
+
+.select{
+    width: 400px;
+    height: 50px;
+    align-items: center;
+   justify-content: space-between;
+   display: flex;
+  margin-left: -600px;
+  padding-top: 40px;
+    
+}
+
+.conteiner_3{
+    width: 100%;
+    height: 1000px;
+    margin-top: 30px;
+
+}
+
+.row_card {
+    display: flex;
+    justify-content: space-between;
+    width: 1300px;
+    padding: 30px;
+    margin-left: 300px;
+    padding: 20px;
+
+}
+
+
+.col_card {
+    width: 300px;
+    height: 800px;
+    background-color:white;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid grey;
+}
+
+.card_header {
+    text-align: center;
+    padding: 5px;
+}
+
+.type {
+    padding: 10px;
+}
+
+.content{
+    padding: 10px;
+}
+
+.point{
+    padding: 10px;
+}
+
+.prova {
+    background-color:#0061ff ;
+    color: white;
+    border: 3px solid #0061ff;
+    display: block;
+    padding: 5px;
+    width: 250px;
+}
+
+.card_vertical {
+    width: 1300px;
+    height: 300px;
+    align-items: center;
+    margin-left: 300px;
+    border: 1px solid gray;
+}
+
+
+.card_header_vertical {
+    text-align: center;
+    padding: 10px;
+}
+
+.row_vertical{
+    text-align: left;
+    padding: 20px;
+}
+
+.prova_vertical {
+    background-color:#0061ff ;
+    color: white;
+    border: 3px solid #0061ff;
+    display: block;
+    padding: 10px;
+    width: 230px;
+    float: right;
+}
+
+.row_vertical_2 {
+    text-align: left;
+    padding: 20px;
+}
+
+.row_vertical_3{
+    text-align: left;
+    padding-top: 30px;
+}
