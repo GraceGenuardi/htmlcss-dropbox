@@ -173,7 +173,7 @@ ul,li {
 
 .col_card {
     width: 300px;
-    height: 800px;
+    height: 1000px;
     background-color:white;
     flex-direction: row;
     justify-content: space-between;
@@ -186,15 +186,15 @@ ul,li {
 }
 
 .type {
-    padding: 10px;
+    padding: 20px;
 }
 
 .content{
-    padding: 10px;
+    padding: 20px;
 }
 
 .point{
-    padding: 10px;
+    padding: 20px;
 }
 
 .prova {
@@ -204,6 +204,8 @@ ul,li {
     display: block;
     padding: 5px;
     width: 250px;
+    margin-top: 30px;
+    padding: 10px;
 }
 
 .card_vertical {
@@ -248,4 +250,9 @@ ul,li {
 ._hr  {
     width: 50px;
     margin-left: 10px;
+}
+
+/*****FIX PRIMA PARTE***/
+i {
+    padding-right: 10px;
 }
