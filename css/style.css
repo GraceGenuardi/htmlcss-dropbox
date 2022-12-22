@@ -256,3 +256,8 @@ ul,li {
 i {
     padding-right: 10px;
 }
+
+a {
+    color: black;
+    text-decoration: none;
+}
