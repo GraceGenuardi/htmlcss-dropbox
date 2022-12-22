@@ -197,6 +197,10 @@ ul,li {
     padding: 20px;
 }
 
+.point i{
+    color: #0061ff;
+}
+
 .prova {
     background-color:#0061ff ;
     color: white;
@@ -209,10 +213,10 @@ ul,li {
 }
 
 .card_vertical {
-    width: 1300px;
+    width: 1260px;
     height: 300px;
     align-items: center;
-    margin-left: 300px;
+    margin-left: 320px;
     border: 1px solid gray;
 }
 
@@ -245,7 +249,10 @@ ul,li {
 .row_vertical_3{
     text-align: left;
     padding-top: 30px;
+    padding-left: 20px;
+    font-size: 15px;
 }
+
 
 ._hr  {
     width: 50px;
@@ -258,6 +265,7 @@ i {
 }
 
 a {
-    color: black;
+    color: currentColor;
     text-decoration: none;
 }
+
