@@ -328,4 +328,52 @@ a {
 }
 
 
+/*********conteiner boxs rules******/
 
+.conteiner_box {
+    width: 100%;
+    height: 1200px;
+    background-color: rgb(122, 182, 130);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.row_box {
+    border: 2px dashed red;
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.col_box {
+    border: 2px dashed black;
+    width: 30%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    padding-left: 50px;
+    text-align: left;
+}
+
+.img {
+    width: 350px;
+    height: 250px;
+    background-image: url("../img/business-feature-switching-tools.png");
+    background-size: cover;
+    
+}
+
+.col_box h3 {
+    font-size: 20px;
+}
+
+.col_box p {
+    font-size: 15px;
+}
