@@ -428,6 +428,7 @@ a {
 
 }
 
+/******COLONNA CENTRALE RULES**/
 .col_center {
     padding: 60px;
 }
@@ -437,4 +438,8 @@ a {
     padding-top: 30px ;
 }
 
+/******COLONNA LEFT RULES**/
+.col_center {
+    padding: 60px;
+}
 
