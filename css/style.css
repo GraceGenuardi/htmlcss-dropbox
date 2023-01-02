@@ -54,7 +54,11 @@ h2 {
     
 }
 
-
+.logo img {
+    width: 100px;
+    height: 30px;
+    margin-top: 0;
+}
 .nav {
     display: flex;
     flex-direction: row; 
@@ -451,6 +455,8 @@ a {
 img {
     width: 150px;
     height: 150px;
+    margin-left: 30px;
+    margin-top: 40px;
     
 }
 
@@ -580,5 +586,38 @@ img {
     padding-top: 50px;
     text-align: center;
 
+    
+}
+
+/*****CONTEINER PROVA GRATUITA RULES*****/
+
+.conteiner_prova{
+    background-color: #b4d0e7;
+    width: 100%;
+    padding: 90px;
+}
+
+.row_prova {
+   text-align: center;
+   padding: 60px;
+   display: inline;
+
+
+}
+
+.row_prova h2 {
+    color: #61082b;
+}
+
+.button_prova {
+    background-color: white;
+    color: black;
+    width: 30%;
+    margin-left: 1400px;
+    position: relative;
+    top: -40px;
+    padding: 15px;
+    
+    
     
 }
