@@ -426,11 +426,18 @@ a {
 }
 
 .col_left, .col_center, .col_right{
-    border: 2px dashed red;
     width: calc(100% /3);
 
 }
 
+.logo_des {
+    background-image: url(../img/designit.svg);
+    width: 400px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: -60px;
+}
 /******COLONNA CENTRALE RULES**/
 .col_center {
     padding: 120px;
@@ -439,6 +446,12 @@ a {
 .col_center p {
     padding-bottom: 40px;
     padding-top: 30px ;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    
 }
 
 /******COLONNA LEFT RULES**/
@@ -450,7 +463,6 @@ a {
 .box-card1, .box-card2, .box-card3, .box-card4 {
     position: absolute;
     transform: translate(+50%, +50%);
-    border: 3px dashed red;
     width:320px;
     height: 320px;
 }
@@ -461,9 +473,17 @@ a {
     top: -170px;
     left: -160px;
     background-color: #a2d39b;
-    padding: 30px;
+    padding-top: 50px;
+    text-align: center;
 
     
+}
+
+
+.box-card1:hover
+{ 
+    
+    border: Solid 15px #d1e9cd;
 }
 
 .box-card2 {
@@ -471,7 +491,9 @@ a {
     top: -490px;
     right: -160px;
     background-color: #61082b;
-    padding: 30px;
+    padding-top: 50px;
+    text-align: center;
+
     
 }
 
@@ -480,9 +502,16 @@ a {
     top: -490px;
     left: -160px;
     background-color: #0093ce;
-    padding: 30px;
+    padding-top: 100px;
+    text-align: center;
+    
 
     
+}
+
+.box-card3 img {
+    width: 250px;
+    height: 100px;
 }
 
 .box-card4 {
@@ -490,7 +519,8 @@ a {
     top: -810px;
     right: -160px;
     background-color: #ff1c1c;
-    padding: 30px;
+    padding-top: 50px;
+    text-align: center;
 
     
 }
@@ -505,7 +535,6 @@ a {
 .box-card1_right, .box-card2_right, .box-card3_right, .box-card4_right {
     position: absolute;
     transform: translate(+50%, +50%);
-    border: 3px dashed red;
     width:320px;
     height: 320px;
 }
@@ -516,7 +545,8 @@ a {
     top: -170px;
     left: -160px;
     background-color: #d5001f;
-    padding: 30px;
+    padding-top: 50px;
+    text-align: center;
 
     
 }
@@ -526,7 +556,8 @@ a {
     top: -490px;
     right: -160px;
     background-color: #b4d0e7;
-    padding: 30px;
+    padding-top: 50px;
+    text-align: center;
     
 }
 
@@ -535,7 +566,8 @@ a {
     top: -490px;
     left: -160px;
     background-color: #0d2481;
-    padding: 30px;
+    padding-top: 50px;
+    text-align: center;
 
     
 }
@@ -545,7 +577,8 @@ a {
     top: -810px;
     right: -160px;
     background-color: #ffd830;
-    padding: 30px;
+    padding-top: 50px;
+    text-align: center;
 
     
 }
