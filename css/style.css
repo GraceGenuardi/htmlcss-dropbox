@@ -621,3 +621,26 @@ img {
     
     
 }
+
+/*****FAQ RULES***/
+.conteiner_FAQ{
+    width: 100%;
+    background-color: white;
+    padding-left: 400px;
+    padding-right: 400px;
+    
+    
+}
+
+.title_FAQ {
+    padding: 70px;
+    text-align: left;
+}
+
+.liste_FAQ {
+    padding: 40px;
+}
+
+.icon_FAQ {
+    padding-left: 320px;
+}
