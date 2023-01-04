@@ -181,6 +181,11 @@ h2 {
 
 }
 
+.conteiner_3 a {
+    color: blue;
+    text-decoration: underline ;
+}
+
 .row_card {
     display: flex;
     justify-content: space-between;
