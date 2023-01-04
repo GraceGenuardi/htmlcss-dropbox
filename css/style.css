@@ -151,6 +151,7 @@ h2 {
     /**height: 70px;-Altezza superflua**/
     display: flex;
     justify-content: center;
+    padding-bottom: 30px;
 }
 
 .row_title {
@@ -644,3 +645,5 @@ img {
 .icon_FAQ {
     padding-left: 320px;
 }
+
+/*****FOOTER RULES***/
