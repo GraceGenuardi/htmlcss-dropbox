@@ -376,10 +376,50 @@ a {
     text-align: left;
 }
 
-.img {
+.img_1 {
     width: 350px;
-    height: 250px;
+    height: 300px;
     background-image: url("../img/business-feature-switching-tools.png");
+    background-size: cover;
+    
+}
+
+.img_2 {
+    width: 350px;
+    height: 300px;
+    background-image: url("../img/business-feature-integrations-it.png");
+    background-size: cover;
+    
+}
+
+.img_3 {
+    width: 350px;
+    height: 300px;
+    background-image: url("../img/business-feature-coordinate-it.png");
+    background-size: cover;
+    
+}
+
+.img_4 {
+    width: 350px;
+    height: 300px;
+    background-image: url("../img/business-feature-multi-device.png");
+    background-size: cover;
+    
+}
+
+.img_5 {
+    width: 350px;
+    height: 300px;
+    background-image: url("../img/business-feature-security.png");
+    background-size: cover;
+    
+}
+
+.img_6 {
+    width: 350px;
+    height: 300px;
+    background-image: url("../img/business-feature-send-files-it.png");
     background-size: cover;
     
 }
